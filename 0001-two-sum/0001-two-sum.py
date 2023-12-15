@@ -3,10 +3,10 @@ class Solution:
         hashmap = {}
 
         for i, n in enumerate(nums):
-            diff = target - n
+            difff = target - n
 
-            if diff in hashmap:
-                return [hashmap[diff], i]
+            if difff in hashmap:
+                return [hashmap[difff], i]
             else:
                 hashmap[n] = i
         return
